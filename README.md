@@ -10,4 +10,4 @@ Atividade para implementar um Padrão de Projeto com o intuito de entender a uti
 Padrão escolhido: Template Method
 - O Template Method é um padrão de projeto comportamental que visa definir a estrutura de um algoritmo na superclasse, permitindo que subclasses forneçam implementações específicas para partes desse algoritmo. Essencialmente, ele estabelece um esqueleto de algoritmo, onde certas etapas são definidas na superclasse como métodos abstratos ou com implementações padrão. As subclasses podem então sobrescrever esses métodos para personalizar partes específicas do algoritmo sem alterar sua estrutura geral.
 
-Link para a visualização do trabalho: 
+Link para a visualização do trabalho: https://docs.google.com/document/d/10b9w8uE2Gdg9uRfA_x5TysuagoTPj5L0jqeBqFSuY4o/edit?usp=sharing
