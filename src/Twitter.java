@@ -1,12 +1,8 @@
 public class Twitter extends RedeSocial {
-    @Override
-    public void fazerComentario() {
-        System.out.println("Fazendo comentário no Twitter");
-    }
-
-    @Override
-    public void publicar() {
-        System.out.println("Publicando comentário no Twitter");
+    @Override 
+    public void postagem() {
+        String texto = ("Estou fazendo um comentário");
+        Image imagemPost = new Image("imagem.png");
     }
 }
 

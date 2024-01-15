@@ -1,17 +1,12 @@
 public class App {
     public static void main(String[] args) {
         RedeSocial facebook = new Facebook();
-        facebook.postagemTexto();
+        facebook.executar();
 
         System.out.println("--------------------");
 
         RedeSocial twitter = new Twitter();
-        twitter.fazerComentario();
-
-        System.out.println("--------------------");
-
-        RedeSocial instagram = new Instagram();
-        instagram.fazerLive();
+        twitter.executar();
 
         System.out.println("--------------------");
     }
