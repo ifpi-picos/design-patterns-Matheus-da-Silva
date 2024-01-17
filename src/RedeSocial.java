@@ -1,14 +1,22 @@
 public abstract class RedeSocial {
 
-    public final void executar() { // TemplateMethod()
+    // TemplateMethod()
+    public final void executar() { 
         logar();
         postagem();
         publicar();
     }
 
-    abstract void logar();
-    abstract void postagem();
-    abstract void publicar();
+    public void logar() {
+        System.out.println("Você está logado!");
+    }
+
+    // Método abstrato com implementação específica em cada classe concreta
+    abstract void postagem(); 
+
+    public void publicar() {
+        System.out.println("Postagem realizada com sucesso!");
+    }
 }
 
 /*
