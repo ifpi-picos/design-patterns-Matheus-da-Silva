@@ -5,7 +5,9 @@
 ### Programação Orientada a Objetos - Professor: Jesiel Viana
 Aluno: Matheus da Silva
 
-Atividade para implementar um Padrão de Projeto com o intuito de entender a utilidade e o funcionanmento desses padrões no Desenvolvimento de software
+Atividade para implementar um Padrão de Projeto com o intuito de entender a utilidade e o funcionanmento desses padrões no Desenvolvimento de Software.
+
+OBS: Vale ressaltar que, nesse projeto em particular, não é um aplicativo funcional, isto é, trata-se apenas de uma situação que se encaixa para a explicação do Padrão.
 
 Padrão escolhido: Template Method
 - O Template Method é um padrão de projeto comportamental que visa definir a estrutura de um algoritmo na superclasse, permitindo que subclasses forneçam implementações específicas para partes desse algoritmo. Essencialmente, ele estabelece um esqueleto de algoritmo, onde certas etapas são definidas na superclasse como métodos abstratos ou com implementações padrão. As subclasses podem então sobrescrever esses métodos para personalizar partes específicas do algoritmo sem alterar sua estrutura geral.
