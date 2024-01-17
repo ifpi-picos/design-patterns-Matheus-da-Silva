@@ -1,6 +1,6 @@
 public class RedeSocial1 extends RedeSocial {
     @Override 
-    public void postagem() {
+    public void criarPostagem() {
         String texto = ("Estou fazendo um comentário");
     }
 }

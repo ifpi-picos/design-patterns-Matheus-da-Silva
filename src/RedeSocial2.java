@@ -2,7 +2,7 @@ import javax.swing.ImageIcon;
 
 public class RedeSocial2 extends RedeSocial {
     @Override 
-    public void postagem() {
+    public void criarPostagem() {
         String texto = ("Estou fazendo um comentário");
         ImageIcon imagemPost = new ImageIcon("imagem.png");
     }

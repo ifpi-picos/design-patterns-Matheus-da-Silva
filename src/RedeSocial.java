@@ -3,7 +3,7 @@ public abstract class RedeSocial {
     // TemplateMethod()
     public final void executar() { 
         logar();
-        postagem();
+        criarPostagem();
         publicar();
     }
 
@@ -12,7 +12,7 @@ public abstract class RedeSocial {
     }
 
     // Método abstrato com implementação específica em cada classe concreta
-    abstract void postagem(); 
+    abstract void criarPostagem(); 
 
     public void publicar() {
         System.out.println("Postagem realizada com sucesso!");
